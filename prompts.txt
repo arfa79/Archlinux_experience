@@ -1,0 +1,4 @@
+some of the prompts in terminal has not been installed by default in archlinux and we should install 
+them before using them in terminal
+=================================================================================================
+sudo pacman -S locate
