@@ -20,16 +20,27 @@ sudo pacman -Sy
 sudo pacman -S archlinuxcn-keyring
 
 # Install additional packages
-sudo pacman -S perspolis smplayer telegram-desktop handbrake-cli handbrake-gtk obs-studio make gcc firefox chromium gnome-tweaks gnome-shell-extensions p7zip gnome-shell-extension-dash-to-dock gnome-shell-extension-caf-feine gnome-shell-extension-persian-calendar gnome-shell-extension-blur-my-shell gnome-shell-extension-blyr gnome-shell-extension-hide-activities-button gnome-shell-extension-media-player-indicator gnome-shell-extension-openweather gnome-shell-extension-frippery-move-clock gnome-shell-extension-system-monitor gnome-shell-extension-run-command macos-mojave-gtk-theme ocs-url virtualbox ventoy-bin zsh bluez ntfs-3g libreoffice adb docker vim postgresql unrar
+sudo pacman -S persepolis smplayer telegram-desktop handbrake obs-studio make gcc firefox chromium gnome-tweaks virtualbox zsh bluez ntfs-3g libreoffice android-tools docker unrar p7zip
 
 # Install nekoray-bin from AUR
 git clone https://aur.archlinux.org/nekoray-bin.git
 cd nekoray-bin/
 makepkg -si
 
+# Install ocs-url from AUR
+# VPN Required
+git clone https://aur.archlinux.org/ocs-url.git
+cd ocs-url/
+makepkg -si
+
+# Install ventoy-bin from AUR
+git clone https://aur.archlinux.org/ventoy-bin.git
+cd ventoy-bin/
+makepkg -si
 
 echo "Installation finished. Please review any additional configurations and settings as needed."
 
+# gnome extentions : gnome-shell-extensions gnome-shell-extension-dash-to-dock gnome-shell-extension-caf-feine gnome-shell-extension-persian-calendar gnome-shell-extension-blur-my-shell gnome-shell-extension-blyr gnome-shell-extension-hide-activities-button gnome-shell-extension-media-player-indicator gnome-shell-extension-openweather gnome-shell-extension-frippery-move-clock gnome-shell-extension-system-monitor gnome-shell-extension-run-command macos-mojave-gtk-theme
 # Additional configurations
 # Terminal customization with Zsh
 # Bluetooth setup
