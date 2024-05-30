@@ -20,7 +20,7 @@ sudo pacman -Sy
 sudo pacman -S archlinuxcn-keyring
 
 # Install additional packages
-sudo pacman -S persepolis smplayer telegram-desktop handbrake obs-studio make gcc firefox chromium gnome-tweaks virtualbox zsh bluez ntfs-3g libreoffice android-tools docker unrar p7zip tmux code
+sudo pacman -S persepolis smplayer telegram-desktop handbrake obs-studio make gcc firefox chromium gnome-tweaks virtualbox zsh bluez ntfs-3g libreoffice android-tools docker unrar p7zip tmux code neofetch
 
 # Install nekoray-bin from AUR
 git clone https://aur.archlinux.org/nekoray-bin.git
